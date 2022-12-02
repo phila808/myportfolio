@@ -96,7 +96,7 @@ footer{
 
   background-color: red;
   text-decoration: underline;
-} */
+} 
 
 
 
@@ -207,7 +207,7 @@ contain {
   display: flex;
   flex-direction: column;
 
-} */
+} 
 
 
 
@@ -219,7 +219,7 @@ contain {
     
 
 }
-/* for the boxes inside the container */
+
 .container .box{
     position: relative;
     width: calc(400px - 30px);
@@ -266,21 +266,13 @@ contain {
 } 
 
 
-/* .container .box .icon .fa{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    transition: 0.5s;
-    color: #fff;
-} */
+
 
 .container .box:hover .icon .fa{
     font-size: 40px;
 }
 
-/* design the content inside the container box */
+
 .container .box .content{
     position: absolute;
     top: 100%;
@@ -312,7 +304,6 @@ contain {
     color: black;
 }
 
-/* to change the box1 color  */
 .container .box:nth-child(1) .icon{
     background: black;
 
